@@ -1,0 +1,17 @@
+{
+  "name": "learn-teach",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/local-runner": "^8.39.0",
+    "@wdio/mocha-framework": "^8.39.0",
+    "@wdio/selenium-standalone-service": "^8.15.0",
+    "@wdio/spec-reporter": "^8.39.0"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "latest": "^0.2.0",
+    "wdio-selenium-standalone-service": "^0.0.12"
+  }
+}

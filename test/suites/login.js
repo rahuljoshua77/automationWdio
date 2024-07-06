@@ -3,11 +3,12 @@ import { validCredentials, invalidCredentials, errorMessage } from '../data.js';
 
 describe('Login Page', () => {
     // Hook `beforeEach` untuk mengeksekusi kode sebelum semua tes dalam blok ini
-    before(async () => {
+    beforeEach(async () => {
         // Membuka URL dari halaman yang diuji
         await LoginPage.open();
     });
-    after(async () => {
+    
+    afterEach(async () => {
         // Menutup browser setelah setiap tes
         await browser.reloadSession()
     });

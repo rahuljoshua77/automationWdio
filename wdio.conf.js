@@ -21,11 +21,11 @@ export const config = {
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
     //
-    // suites: {
-    //     login: ['./test/login/*.spec.js'],   // Path ke file-file pengujian login dengan ekstensi .spec.js
-    //     logout: ['./test/logout/*.spec.js'], // Path ke file-file pengujian logout dengan ekstensi .spec.js
-    //      
-    // },
+    suites: {
+        login: ['./test/suites/login.js'],   // Path ke file-file pengujian login dengan ekstensi .spec.js
+        checkout: ['./test/suites/checkout.js'], // Path ke file-file pengujian logout dengan ekstensi .spec.js
+         
+    },
     specs: [
         './test/suites/*.js'
     ],

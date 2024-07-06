@@ -8,7 +8,8 @@
     "@wdio/spec-reporter": "^8.39.0"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "login": "wdio run ./wdio.conf.js --suite login",
+    "checkout": "wdio run ./wdio.conf.js --suite checkout"
   },
   "dependencies": {
     "latest": "^0.2.0",

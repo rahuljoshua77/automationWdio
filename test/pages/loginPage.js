@@ -1,7 +1,7 @@
 // pages/LoginPage.js
 class LoginPage {
     // Selektor untuk elemen-elemen halaman
-    get usernameInput() { return $('#user-name'); }
+    get usernameInput() { return $('//input[@id="user-name"]'); }
     get passwordInput() { return $('#password'); }
     get submitButton() { return $('#login-button'); }
     get errorMessage() { return $('h3'); }
